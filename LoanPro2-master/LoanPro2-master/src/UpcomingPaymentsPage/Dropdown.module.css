@@ -1,0 +1,17 @@
+.dropdown {
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #c9c9c9;
+    background-color: #c9c9c9;
+    border-radius: 5px;
+    font-size: 16px;
+    
+    margin-right: 2%;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.548); 
+    cursor: grab;
+    
+}
+
+.dropdown:hover {
+    background-color: #b1efff;
+  }

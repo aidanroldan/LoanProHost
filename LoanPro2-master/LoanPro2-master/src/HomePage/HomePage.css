@@ -1,0 +1,282 @@
+.App {
+    text-align: center;
+  }
+
+  .sharkspacer{
+    margin-left: 420%;
+  }
+
+  .top-middle-button3{
+    margin-right: 70%;
+  }
+  .helpSpacer {
+    margin-left: 850px; /* Pushes the Help button to the far right */
+    /* Additional styling if needed */
+}
+
+  .top-left-button {
+    display: flex; /* Enables Flexbox for the container */
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start;
+    position: absolute; /* or 'absolute' depending on your layout */
+    top: 1px;
+
+    margin-left: 100px; /* Adjust margin as needed */
+    /* Add other styles like padding, font, background, etc. as per your design */
+  }
+  .top-left-button2 {
+    position: absolute; /* or 'absolute' depending on your layout */
+    top: 1px;
+
+    margin-left: 100px; /* Adjust margin as needed */
+    /* Add other styles like padding, font, background, etc. as per your design */
+  }
+
+  .left-side-bar {
+    /* Add styles for the left-side bar */
+    width: 30%; /* Example width */
+    padding: 10px;
+    margin-right: 2%;
+    /* Add more styles as needed */
+}
+
+.main-container {
+  display: flex; /* Enables Flexbox */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .header-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .App-header {
+    background-color: #0B132B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #1C2541;
+  }
+
+  .App-link {
+    color: #0B132B;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1C2541;
+  }
+
+  .recordBlock1 {
+    color: #000000;
+    background-color: #e1ff1d;
+    text-emphasis-color: #000000;
+  }
+  .recordBlock3 {
+    border: 5px solid #c9c9c93f;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.363);
+    width:600px;
+   margin-top: 100px;
+   border-radius: 10px;
+  }
+
+  .recordBlock2:hover {
+    background-color: #efff0b5f; /* Example: Changes background color on hover */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    /* Add any other hover styles you want here */
+}
+  .recordContainer{
+    margin-top: 70px;
+    margin-left: auto;
+    height: 600px;
+    width:1100px;
+    background-color: #1C2541;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.363);
+    overflow-y: auto;
+    border-radius: 10px;
+
+  }
+  .recordContainer4{
+    margin-top: 40px;
+    margin-left: auto;
+    height: 600px;
+    width:1050px;
+    background-color: #1C2541;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.363);
+    overflow-y: auto;
+    border-radius: 10px;
+
+  }
+
+  .searchContainer button {
+    /* margin-right: 10px;  */
+    align-items: center;
+}
+.searchContainer {
+  margin-top: 20px;
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers items horizontally in the container */
+  height: 1vh; /* Sets the height of the container to 100% of the viewport height */
+  
+}
+
+  .container {
+    width: 75vw;
+    margin-top: 90px;
+    background-color: #1C2541;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #1C2541;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container2 {
+    width: 75vw;
+    margin-top: 25px;
+    background-color: #1C2541;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #1C2541;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.363);
+  }
+
+  .sharkcage{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center; 
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'arial';
+    font-weight: 300;
+    color: #c9c9c9;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+  }
+  h3{
+    color: #c9c9c9;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  h4{
+    margin-top: 100px;
+    margin-left: 13%;
+    color:aqua;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+  }
+
+  h6 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #c9c9c9;
+  }
+  h5 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #c9c9c9;
+  }
+
+  form{
+    text-align: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font: arial;
+    color: #c9c9c9;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button {
+    background-color: #c9c9c9;
+    color: #000000;
+    font-family: 'Roboto', sans-serif; /* Updated font-family */
+    font-size: 16px; /* You can adjust the size as needed */
+    border-color: #c9c9c9;
+    border-width: 2px; /* Adjusted border width */
+    border-style: solid; /* Added border style */
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.548); 
+    margin-right: 10px;
+}
+
+  button:hover {
+    background-color: #b1efff;
+  }
+
+  body{
+    background-color: #33fc4420;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .simple-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    .simple-table th, .simple-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .simple-table th {
+      background-color: #f2f2f2;
+    }
